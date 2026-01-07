@@ -6,10 +6,33 @@ __pycache__/
 db.sqlite3
 *.log
 
+# Django static files (collected/built files)
+/static/
+staticfiles/
+
+# Django media files
+media/
+
 # Environment
 .env
 
 # uv
 .uv/
 
+# Node
 node_modules
+
+# Vite build output
+dist/
+.vite/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
